@@ -1,0 +1,29 @@
+{
+  "name": "masjid-appeal-site",
+  "version": "0.1.0",
+  "description": "Masjid construction and fundraising website (static, hosted payments)",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "build:launch": "node scripts/build.mjs --launch",
+    "check:launch": "node scripts/build.mjs --check",
+    "preview:file": "node scripts/build.mjs --preview-file",
+    "test": "node --test test/*.test.mjs",
+    "serve": "npx --yes serve@14.2.4 dist",
+    "check:finance": "node scripts/finance-lock.mjs",
+    "approve:finance": "node scripts/finance-lock.mjs --approve",
+    "check:security": "node scripts/security-fuzz.mjs && npm audit"
+  },
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@fontsource/amiri": "^5.3.0",
+    "@fontsource/newsreader": "^5.3.0",
+    "@fontsource/noto-nastaliq-urdu": "^5.3.0",
+    "@fontsource/public-sans": "^5.3.0",
+    "axe-core": "^4.10.2"
+  },
+  "private": true,
+  "type": "module"
+}

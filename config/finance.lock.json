@@ -1,0 +1,17 @@
+{
+  "_readme": "Fingerprint of the bank and payment details last approved by the finance owner. Builds stop if config/finance.json no longer matches. Change only through a reviewed pull request.",
+  "sha256": "564cf9b267691ac89fd23fc4ae9229affd6010de9db14a8e30dc07140881340b",
+  "approvedAt": "2026-11-09T12:49:40.130Z",
+  "summary": {
+    "accounts": [
+      "Bank AL Habib Limited: PK64…6701",
+      "United Bank Limited (UBL): PK65…1555",
+      "United Bank Limited (UBL): PK30…9799"
+    ],
+    "wallets": [
+      "Easypaisa: 0300…3600"
+    ],
+    "paymentMode": "preview",
+    "paymentHosts": []
+  }
+}

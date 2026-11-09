@@ -1,0 +1,747 @@
+{
+  "_readme": "Public website content. null = not yet supplied; the preview shows a labelled placeholder and the launch check blocks publication. Dates are ISO (YYYY-MM-DD, or YYYY-MM for estimates). Money is integer minor units (e.g. 2500 = 25.00).",
+  "site": {
+    "siteName": "Jamia Islamia Abdullah Bin Abdul Muttalib R.A.",
+    "masjidName": "Jamia Masjid Syeda Amina R.A.",
+    "projectLocation": "Malir, Karachi",
+    "projectCountry": "Pakistan",
+    "primaryLanguage": "en",
+    "primaryLanguageConfirmed": false,
+    "headline": "Help build Jamia Masjid Syeda Amina R.A.",
+    "lede": "Construction has begun and work is under way on the foundation. You can help build the masjid, or support the Jamia's students with their daily meals and accommodation.",
+    "canonicalUrl": null,
+    "socialImage": null,
+    "openingLineAr": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+    "taglineUr": "تعلیم و تربیت · شخصیت سازی · خدمت دین",
+    "tagline": "Education and training · Character building · Service of the deen",
+    "shortName": null,
+    "address": "Zero Point, Jan Muhammad Kalmati Village, District Malir, Karachi",
+    "logo": {
+      "src": "media/emblem.png",
+      "alt": "Emblem of Jamia Islamia Abdullah Bin Abdul Muttalib R.A.",
+      "width": 192,
+      "height": 192,
+      "source": "Cropped from the construction poster; replace with the original artwork when available"
+    },
+    "favicon": "media/favicon-32.png",
+    "appleTouchIcon": "media/apple-touch-icon.png",
+    "numberLocale": "en-GB",
+    "dateLocale": "en-GB",
+    "displayCurrency": {
+      "code": "EUR",
+      "locale": "en-IE",
+      "sourceCurrency": "PKR",
+      "rate": 310.71,
+      "asOf": "2026-11-09",
+      "source": "Wise mid-market rate",
+      "note": "Euro amounts are approximate and rounded; the costs are set in Pakistani rupees. Update the rate when you update figures."
+    },
+    "salutationAr": "الصَّلٰوةُ وَالسَّلَامُ عَلَيْكَ يَا رَسُولَ اللّٰهِ"
+  },
+  "organisation": {
+    "name": "Jamia Islamia Abdullah Bin Abdul Muttalib R.A.",
+    "country": "Pakistan",
+    "registration": null,
+    "relationshipToMasjid": "The Jamia is building Jamia Masjid Syeda Amina R.A. and is collecting donations for its construction. Both are under the spiritual guidance of Hadhrat Shaikh Syed Ahmed Ali Shah Tirmizi Hanafi Saifi.",
+    "onwardTransfer": null,
+    "head": {
+      "name": "Mufti Syed Abdul Haq Shah Tirmizi Saifi",
+      "role": "Muhtamim (Head of the Jamia)"
+    },
+    "nameUr": "جامعہ اسلامیہ عبداللہ بن عبدالمطلب",
+    "patron": "Hadhrat Shaikh Syed Ahmed Ali Shah Tirmizi Hanafi Saifi"
+  },
+  "contact": {
+    "email": null,
+    "phone": "+92 300 2903600 · +92 316 2023122",
+    "whatsapp": null,
+    "person": "Mufti Syed Abdul Haq Shah Tirmizi Saifi, Muhtamim (Head of the Jamia)",
+    "facebook": "https://www.facebook.com/share/1cGDbBDLnP/?mibextid=wwXIfr"
+  },
+  "campaign": {
+    "id": "general-construction",
+    "scopeLabel": "Foundation phase appeal",
+    "reportingCurrency": "PKR",
+    "currentPhaseTarget": 465700000,
+    "confirmedRaised": null,
+    "financialAsOf": null,
+    "figureSource": null,
+    "totalPolicy": "Confirmed successful donations assigned to this appeal, less refunded or reversed amounts, before payment-processing fees. Pledges and future monthly instalments are not counted until received.",
+    "totalProjectBudget": null,
+    "totalProjectBudgetAsOf": null,
+    "allocationNote": null,
+    "targetNote": "Materials only. Labour and other construction expenses are additional and not yet costed on the appeal.",
+    "costBreakdown": [
+      {
+        "item": "Steel reinforcement bars (sarya)",
+        "quantity": null,
+        "cost": 194000000
+      },
+      {
+        "item": "Cement",
+        "quantity": "400 bags",
+        "cost": 61200000,
+        "gift": {
+          "units": 400,
+          "unit": "bag",
+          "unitPlural": "bags",
+          "phrase": "{q} of cement",
+          "displayPer": 1,
+          "countable": true,
+          "icon": "bag",
+          "euroStep": 5,
+          "euroMin": 5,
+          "euroDefault": 25
+        }
+      },
+      {
+        "item": "Blocks (6 inch)",
+        "quantity": "5,500 pieces",
+        "cost": 49500000,
+        "gift": {
+          "units": 5500,
+          "unit": "block",
+          "unitPlural": "blocks",
+          "phrase": "{q}",
+          "displayPer": 100,
+          "countable": true,
+          "icon": "blocks",
+          "euroStep": 5,
+          "euroMin": 5,
+          "euroDefault": 20
+        }
+      },
+      {
+        "item": "Crushed stone",
+        "quantity": "20 trucks",
+        "cost": 36000000,
+        "gift": {
+          "units": 20,
+          "unit": "truck",
+          "unitPlural": "trucks",
+          "phrase": "{q} of crushed stone",
+          "displayPer": 1,
+          "countable": false,
+          "icon": "truck",
+          "euroStep": 10,
+          "euroMin": 10,
+          "euroDefault": 30
+        }
+      },
+      {
+        "item": "Sand mix",
+        "quantity": "10 dumpers",
+        "cost": 65000000,
+        "gift": {
+          "units": 10,
+          "unit": "dumper",
+          "unitPlural": "dumpers",
+          "phrase": "{q} of sand mix",
+          "displayPer": 1,
+          "countable": false,
+          "icon": "sand",
+          "euroStep": 20,
+          "euroMin": 20,
+          "euroDefault": 100
+        }
+      },
+      {
+        "item": "Crushed aggregate",
+        "quantity": "5 dumpers",
+        "cost": 60000000,
+        "gift": {
+          "units": 5,
+          "unit": "dumper",
+          "unitPlural": "dumpers",
+          "phrase": "{q} of crushed aggregate",
+          "displayPer": 1,
+          "countable": false,
+          "icon": "aggregate",
+          "euroStep": 10,
+          "euroMin": 10,
+          "euroDefault": 100
+        }
+      }
+    ],
+    "costBreakdownSource": "Cost estimate published on the Jamia's construction appeal poster (undated).",
+    "materialGiftsNote": null
+  },
+  "status": {
+    "currentStage": "Foundation work under way",
+    "lastProjectUpdate": null
+  },
+  "heroPhoto": {
+    "src": "media/concept-masjid.jpg",
+    "srcset": "media/concept-masjid-800.jpg 800w, media/concept-masjid.jpg 1148w",
+    "width": 1148,
+    "height": 674,
+    "type": "design",
+    "typeLabel": "Architect's concept",
+    "caption": "Concept of the finished masjid, not a photograph",
+    "alt": "Architect's concept rendering of the finished Jamia Masjid Syeda Amina: a large central dome with four smaller domes, two tall minarets, and a front facade of wide pointed arches with lattice panels, set behind a paved forecourt.",
+    "rights": "Concept rendering by Arch Vision Plus, supplied by the Jamia"
+  },
+  "buildingToday": {
+    "_readme": "Actual photographs from the construction site, oldest first. Add each photo's date (YYYY-MM or YYYY-MM-DD) once known.",
+    "summary": "Construction has started. The site has been set out, the trenches dug, the footings cast and the foundation walls built.",
+    "photos": [
+      {
+        "src": "media/site-survey.jpg",
+        "srcset": "media/site-survey-800.jpg 800w, media/site-survey.jpg 1600w",
+        "width": 1600,
+        "height": 900,
+        "type": "actual",
+        "date": null,
+        "caption": "Setting out: engineers and the Jamia's team go over the plans on the cleared site.",
+        "alt": "Engineers in yellow hard hats and members of the Jamia studying drawings on open, cleared ground inside the boundary wall, with marker poles standing in the soil."
+      },
+      {
+        "src": "media/site-excavation.jpg",
+        "srcset": "media/site-excavation-480.jpg 480w, media/site-excavation.jpg 899w",
+        "width": 899,
+        "height": 1599,
+        "type": "actual",
+        "date": null,
+        "caption": "Excavation: an excavator digs the foundation trenches.",
+        "alt": "A long, deep foundation trench cut into sandy soil, with an excavator and piles of earth beyond it beside the boundary wall."
+      },
+      {
+        "src": "media/site-column.jpg",
+        "srcset": "media/site-column-480.jpg 480w, media/site-column.jpg 899w",
+        "width": 899,
+        "height": 1599,
+        "type": "actual",
+        "date": null,
+        "thumb": "media/site-column-thumb.jpg",
+        "caption": "Foundation: workers fix timber formwork around the steel for a column footing.",
+        "alt": "Two workers in a foundation pit fixing wooden shuttering around a cage of steel reinforcement bars for a concrete column."
+      },
+      {
+        "src": "media/site-foundation.jpg",
+        "srcset": "media/site-foundation-800.jpg 800w, media/site-foundation.jpg 1600w",
+        "width": 1599,
+        "height": 899,
+        "type": "actual",
+        "date": null,
+        "thumb": "media/site-foundation-thumb.jpg",
+        "caption": "Foundation: the concrete foundation walls are in place, with steel bars standing ready for the columns.",
+        "alt": "Low concrete foundation walls marking out the rooms of a building on the sandy site at sunset, with steel reinforcement bars rising at the corners and the boundary wall behind."
+      }
+    ]
+  },
+  "needs": [
+    {
+      "title": "Foundation materials",
+      "why": "Steel, cement, blocks, crushed stone, sand and aggregate to build the foundation.",
+      "estimate": 465700000,
+      "estimateNote": "Materials only; labour and other costs are extra.",
+      "status": "Fundraising now"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Foundation stone laid",
+      "status": "completed",
+      "date": "2019-11-24",
+      "dateType": "actual",
+      "description": "Laid on 26 Rabi‘ al-Awwal 1441 AH by Hadhrat Shaikh Syed Ahmed Ali Shah Tirmizi Hanafi Saifi, with Mufti Muneebur Rahman, Shaikh Mufti Ashiqullah Saifi and Allamah Syed Shah Abdul Haq."
+    },
+    {
+      "title": "Campus master plan prepared",
+      "status": "completed",
+      "date": "2021-12",
+      "dateType": "actual",
+      "description": "Masjid, boys' and girls' madrasas and hostels, staff residence, admin block and parking, by Arch Vision Plus."
+    },
+    {
+      "title": "Concept designs of the masjid",
+      "status": "completed",
+      "date": "2022",
+      "dateType": "actual",
+      "description": "Front, side and aerial views of the finished masjid."
+    },
+    {
+      "title": "Architectural plans prepared",
+      "status": "completed",
+      "date": null,
+      "dateType": "actual",
+      "description": "Basement, ground floor and first floor, designed by Arch Vision Plus."
+    },
+    {
+      "title": "Construction started",
+      "status": "completed",
+      "date": null,
+      "dateType": "actual",
+      "description": "The site was set out and the foundation trenches were dug."
+    },
+    {
+      "title": "Foundation",
+      "status": "in_progress",
+      "date": null,
+      "dateType": "estimate",
+      "description": "Footings and foundation walls are being built. Fundraising continues for foundation materials, labour and construction costs."
+    },
+    {
+      "title": "Basement prayer hall",
+      "status": "planned",
+      "date": null,
+      "dateType": "estimate"
+    },
+    {
+      "title": "Ground floor: prayer hall, ablution area, funeral area and guest room",
+      "status": "planned",
+      "date": null,
+      "dateType": "estimate"
+    },
+    {
+      "title": "First floor prayer hall",
+      "status": "planned",
+      "date": null,
+      "dateType": "estimate"
+    }
+  ],
+  "updates": [],
+  "story": {
+    "paragraphs": [
+      "Jamia Masjid Syeda Amina R.A. is named after Sayyidah Aminah, the blessed mother of the Prophet ﷺ. The Jamia that is building it, Jamia Islamia Abdullah Bin Abdul Muttalib R.A., is named after his blessed father.",
+      "The Jamia brings together a masjid, a madrasa and a khanqah as one system of education and spiritual training, modelled on Masjid an-Nabawi. Its aim is to prepare people who become an example of the straight path in knowledge, practice, conduct and character.",
+      "A large number of students study at the Jamia. Every student receives accommodation and meals free of charge, paid for by donations including Zakat and Sadaqat."
+    ],
+    "missionUr": "مسجد نبوی ﷺ کی طرز پر مسجد، مدرسہ اور خانقاہ کے جامع نظام تعلیم و تربیت کے ذریعے ایسی شخصیات کی تیاری ہمارا مقصد ہے جو علم، عمل، اخلاق اور کردار میں صراطِ مستقیم کی پہچان بنیں۔",
+    "translationNote": "The English text above is translated from it.",
+    "translationConfirmed": false,
+    "departments": [
+      {
+        "group": "Academic",
+        "items": [
+          {
+            "name": "Quran",
+            "note": "Nazra Quran and Hifz-ul-Quran"
+          },
+          {
+            "name": "Arabic"
+          },
+          {
+            "name": "Dars-e-Nizami",
+            "note": "Islamic Studies"
+          },
+          {
+            "name": "Specialisation"
+          },
+          {
+            "name": "Secular Studies"
+          }
+        ]
+      },
+      {
+        "group": "Religious services",
+        "items": [
+          {
+            "name": "Publications"
+          },
+          {
+            "name": "Propagation"
+          },
+          {
+            "name": "Fatwa",
+            "note": "Religious rulings"
+          }
+        ]
+      },
+      {
+        "group": "Student welfare",
+        "items": [
+          {
+            "name": "Accommodation",
+            "note": "Free boarding and meals"
+          },
+          {
+            "name": "Medical Care"
+          }
+        ]
+      }
+    ],
+    "departmentsNote": "Departments as listed in the Jamia's introduction. Grouping is for readability. 'Specialisation' and 'Fatwa' render the introduction's 'Specialty' and 'Decrees'.",
+    "facts": [
+      {
+        "label": "Courses",
+        "value": "Nazra Quran, Hifz-ul-Quran and Dars-e-Nizami (Islamic Studies)"
+      },
+      {
+        "label": "Boarding and meals",
+        "value": "Free for every student"
+      },
+      {
+        "label": "Annual cost per student",
+        "amountPkr": 10000000,
+        "suffix": "per year (estimate)"
+      },
+      {
+        "label": "Spiritual guidance",
+        "value": "Hadhrat Shaikh Syed Ahmed Ali Shah Tirmizi Hanafi Saifi, scholar of the Quran and Hadith and Grand Shaikh of Tasawwuf"
+      }
+    ]
+  },
+  "reports": [],
+  "policies": {
+    "refund": null,
+    "surplusAndDelays": null,
+    "fees": null,
+    "privacyController": null,
+    "retention": null,
+    "taxReliefVerified": null,
+    "zakatGuidanceVerified": "When you donate, choose “Students” in the donation box. The Jamia uses Zakat for its students' education, accommodation and meals. If you are unsure, please contact the Jamia before giving.",
+    "zakatLead": "Yes, to the students' fund."
+  },
+  "_sources": {
+    "poster_madrasa_2026-11-09": "Urdu madrasa appeal poster (Jamia's Urdu name, mission, Muhtamim, accounts).",
+    "poster_construction_2026-11-09": "English construction poster for Jamia Masjid Syeda Amina R.A. (name, emblem, stage, materials costs, phones, accounts, address). The poster is undated.",
+    "notes": "English renderings of Urdu text are translations the Jamia should confirm. Project country and city come from the construction poster address.",
+    "jamia_introduction_pdf": "'Jamiah Abdullah ibn Abdul Muttalib' introduction (Word PDF): naming, patron, foundation-stone date and guests, departments.",
+    "masjid_plans_pdf": "'MASJID' architectural sheet by Arch Vision Plus: basement, ground and first-floor plans and area schedule. Floor totals add to 50,584 sq ft; the sheet states 50,583 sq ft, which is shown.",
+    "student_poster": "Jamia student appeal poster: courses, free board and meals, about Rs 100,000 per student per year, Zakat and Sadaqat. Student photos on that poster are NOT used (minors; consent not confirmed).",
+    "nameVariants": "Materials spell the names differently: 'Jamia Islamia Abdullah Bin Abdul Muttalib R.A' (construction poster), 'Jamia Islamia Sayyed Abdullah Bin Abdul Muttalib (RA)' (student poster), 'Jamiah Islamiyah Abdullah bin Abdul Muttalib' (introduction PDF); masjid: 'Jamia Masjid Syeda Amina R.A.' (poster) vs 'Jame' Masjid Sayyidina Aminah' (PDF). The site uses the construction poster's spelling.",
+    "layout_plan_pdf": "'LAYOUT_PLAN' master plan by Arch Vision Plus; PDF created 15 December 2021.",
+    "camscanner_pdf": "Scanned prints of three concept renderings by Arch Vision Plus (CamScanner file named 04-06-2022).",
+    "satellite": "Google Earth satellite screenshots supplied by the user, dated 2023, 2025 and January 2026 (dates confirmed by the user)."
+  },
+  "appealClosing": {
+    "en": "Your support for spreading religious education and training can become sadaqah jariyah, a charity that keeps giving.",
+    "ar": "جَزَاكُمُ اللَّهُ خَيْرًا كَثِيرًا",
+    "arMeaning": "May Allah reward you abundantly."
+  },
+  "design": {
+    "title": "The planned masjid",
+    "architect": "Arch Vision Plus (architects, engineers and town planners), Karachi",
+    "facts": [
+      {
+        "label": "Worshippers",
+        "value": "4,275"
+      },
+      {
+        "label": "Total covered area",
+        "value": "50,583 sq ft"
+      },
+      {
+        "label": "Levels",
+        "value": "Basement, ground floor and first floor"
+      },
+      {
+        "label": "Ablution places",
+        "value": "226"
+      },
+      {
+        "label": "Showers",
+        "value": "22"
+      },
+      {
+        "label": "Toilets",
+        "value": "88"
+      }
+    ],
+    "areas": [
+      {
+        "floor": "Basement",
+        "items": [
+          [
+            "Prayer hall",
+            "13,788 sq ft"
+          ]
+        ]
+      },
+      {
+        "floor": "Ground floor",
+        "items": [
+          [
+            "Prayer hall",
+            "11,552 sq ft"
+          ],
+          [
+            "Ablution and toilets",
+            "10,020 sq ft"
+          ],
+          [
+            "Funeral area",
+            "956 sq ft"
+          ],
+          [
+            "Guest room",
+            "644 sq ft"
+          ]
+        ]
+      },
+      {
+        "floor": "First floor",
+        "items": [
+          [
+            "Prayer hall",
+            "13,624 sq ft"
+          ]
+        ]
+      }
+    ],
+    "images": [
+      {
+        "src": "media/plan-ground.jpg",
+        "type": "design",
+        "width": 1000,
+        "height": 1000,
+        "caption": "Ground floor plan",
+        "alt": "Architect's ground floor plan: an octagonal prayer hall with a covered walkway and courtyard in front, ablution areas on both sides, and toilets and rooms at the back corners.",
+        "rights": "Drawing by Arch Vision Plus, supplied by the Jamia",
+        "typeLabel": "Architect's plan"
+      },
+      {
+        "src": "media/plan-first.jpg",
+        "type": "design",
+        "width": 986,
+        "height": 1000,
+        "caption": "First floor plan",
+        "alt": "Architect's first floor plan: an octagonal prayer hall around a central opening, with terraces on each side.",
+        "rights": "Drawing by Arch Vision Plus, supplied by the Jamia",
+        "typeLabel": "Architect's plan"
+      },
+      {
+        "src": "media/plan-basement.jpg",
+        "type": "design",
+        "width": 973,
+        "height": 1000,
+        "caption": "Basement plan",
+        "alt": "Architect's basement plan: a single large octagonal prayer hall with stairs on both sides.",
+        "rights": "Drawing by Arch Vision Plus, supplied by the Jamia",
+        "typeLabel": "Architect's plan"
+      }
+    ],
+    "concept": {
+      "src": "media/concept-masjid.jpg",
+      "srcset": "media/concept-masjid-800.jpg 800w, media/concept-masjid.jpg 1148w",
+      "width": 1148,
+      "height": 674,
+      "type": "design",
+      "typeLabel": "Architect's concept",
+      "caption": "Concept of the finished masjid by Arch Vision Plus. It is a design visualisation, not a photograph of the building.",
+      "alt": "Architect's concept rendering of the finished Jamia Masjid Syeda Amina: a large central dome with four smaller domes, two tall minarets, and a front facade of wide pointed arches with lattice panels, set behind a paved forecourt.",
+      "rights": "Concept rendering by Arch Vision Plus, supplied by the Jamia"
+    }
+  },
+  "funds": [
+    {
+      "id": "masjid-construction",
+      "name": "Building the masjid",
+      "description": "Foundation materials and construction costs for Jamia Masjid Syeda Amina R.A.",
+      "zakat": false
+    },
+    {
+      "id": "student-support",
+      "name": "Students' food and board",
+      "description": "Free meals and accommodation for the Jamia's students.",
+      "zakat": true
+    }
+  ],
+  "fundsSeparateConfirmed": false,
+  "studentCost": {
+    "annualPkrMinor": 10000000,
+    "source": "Jamia student appeal poster: about Rs 100,000 per student per year, covering accommodation and meals."
+  },
+  "studentGifts": [
+    {
+      "id": "day",
+      "name": "One day",
+      "icon": "meal",
+      "periodDays": 1,
+      "periodLabel": "a day",
+      "possessive": "a day's",
+      "euroStep": 5,
+      "euroMin": 5,
+      "euroDefault": 5
+    },
+    {
+      "id": "week",
+      "name": "One week",
+      "icon": "week",
+      "periodDays": 7,
+      "periodLabel": "a week",
+      "possessive": "a week's",
+      "euroStep": 5,
+      "euroMin": 5,
+      "euroDefault": 10
+    },
+    {
+      "id": "month",
+      "name": "One month",
+      "icon": "month",
+      "periodDays": 30.4167,
+      "periodLabel": "a month",
+      "possessive": "a month's",
+      "euroStep": 10,
+      "euroMin": 10,
+      "euroDefault": 30
+    },
+    {
+      "id": "three-months",
+      "name": "Three months",
+      "icon": "bed",
+      "periodDays": 91.25,
+      "periodLabel": "3 months",
+      "possessive": "3 months'",
+      "euroStep": 20,
+      "euroMin": 20,
+      "euroDefault": 40
+    },
+    {
+      "id": "year",
+      "name": "One year",
+      "icon": "cap",
+      "periodDays": 365,
+      "periodLabel": "a year",
+      "possessive": "a year's",
+      "euroStep": 40,
+      "euroMin": 40,
+      "euroDefault": 320
+    }
+  ],
+  "waysHighlights": {
+    "masjid": [
+      [
+        "Cement",
+        25
+      ],
+      [
+        "Sand mix",
+        100
+      ]
+    ],
+    "students": [
+      [
+        "day",
+        5
+      ],
+      [
+        "three-months",
+        40
+      ],
+      [
+        "year",
+        320
+      ]
+    ]
+  },
+  "siteImagery": {
+    "source": "Imagery: Google Earth",
+    "images": [
+      {
+        "label": "2023",
+        "src": "media/satellite-2023.jpg",
+        "width": 1400,
+        "height": 875,
+        "alt": "Satellite view of the Jamia's site in 2023: a mostly open, sandy plot with a small group of buildings near the road at the top."
+      },
+      {
+        "label": "2025",
+        "src": "media/satellite-2025.jpg",
+        "width": 1400,
+        "height": 875,
+        "alt": "Satellite view of the site in 2025: a boundary wall encloses the plot and the ground inside is marked out in a grid of squares, with structures at the south end."
+      },
+      {
+        "label": "January 2026",
+        "src": "media/satellite-2026-01.jpg",
+        "width": 1400,
+        "height": 875,
+        "alt": "Satellite view of the site in January 2026: inside the boundary wall, long rows of dark green cover much of the plot, with a building at the south end."
+      }
+    ]
+  },
+  "planning": {
+    "masterPlan": {
+      "src": "media/master-plan.jpg",
+      "width": 1100,
+      "height": 1980,
+      "type": "design",
+      "typeLabel": "Master plan",
+      "caption": "Campus master plan, December 2021",
+      "alt": "Architect's master plan of the whole campus on a triangular plot beside the main road: the masjid near the entrance with residence and admin block, a boys' madrasa and boys' hostel in the middle, a girls' madrasa and girls' hostel at the far end, a staff residence, landscaped areas, a graveyard and parking at the road.",
+      "rights": "Arch Vision Plus, supplied by the Jamia"
+    },
+    "buildings": [
+      "Masjid",
+      "Boys' madrasa",
+      "Boys' hostel",
+      "Girls' madrasa",
+      "Girls' hostel",
+      "Staff residence",
+      "Admin block",
+      "Residence",
+      "Graveyard",
+      "Parking and landscaping"
+    ],
+    "renders": [
+      {
+        "src": "media/concept-front.jpg",
+        "width": 1400,
+        "height": 830,
+        "type": "design",
+        "typeLabel": "Concept",
+        "caption": "Front view (2022)",
+        "alt": "Concept rendering of the masjid from the front: wide pointed arches, a large central dome and two tall minarets.",
+        "rights": "Arch Vision Plus"
+      },
+      {
+        "src": "media/concept-aerial.jpg",
+        "width": 1400,
+        "height": 855,
+        "type": "design",
+        "typeLabel": "Concept",
+        "caption": "Aerial view (2022)",
+        "alt": "Concept rendering of the masjid from above: an octagonal prayer hall with a ribbed dome, arched entrance and two minarets, surrounded by landscaped paving and parking.",
+        "rights": "Arch Vision Plus"
+      },
+      {
+        "src": "media/concept-side.jpg",
+        "width": 1400,
+        "height": 857,
+        "type": "design",
+        "typeLabel": "Concept",
+        "caption": "Side view (2022)",
+        "alt": "Concept rendering of the masjid from the side, with cars parked along the street and palm trees.",
+        "rights": "Arch Vision Plus"
+      }
+    ],
+    "buildingGroups": [
+      {
+        "icon": "dome",
+        "label": "Worship",
+        "items": [
+          "Masjid"
+        ]
+      },
+      {
+        "icon": "book",
+        "label": "Education",
+        "items": [
+          "Boys' madrasa",
+          "Girls' madrasa"
+        ]
+      },
+      {
+        "icon": "home",
+        "label": "Living",
+        "items": [
+          "Boys' hostel",
+          "Girls' hostel",
+          "Staff residence",
+          "Residence"
+        ]
+      },
+      {
+        "icon": "grid",
+        "label": "Campus",
+        "items": [
+          "Admin block",
+          "Graveyard",
+          "Parking and landscaping"
+        ]
+      }
+    ]
+  }
+}

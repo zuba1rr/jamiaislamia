@@ -1,0 +1,98 @@
+{
+  "_readme": "FINANCE-RESTRICTED. Payment recipient, hosted URLs and bank details. Changes need approval from the finance owner (see CODEOWNERS) and confirmation of any recipient change through an independent channel. Content editors must not have write access to this file.",
+  "payments": {
+    "mode": "preview",
+    "provider": null,
+    "providerDisplayName": null,
+    "recipientVerified": false,
+    "accountApproved": false,
+    "currency": "EUR",
+    "testUrl": null,
+    "liveUrl": null,
+    "_allowedHosts": "Only these payment-provider domains may receive donors. A changed or added domain must be approved by the code owners. Example: [\"donate.stripe.com\"].",
+    "allowedHosts": [],
+    "returnPath": "/donation-status/",
+    "amountHandoff": {
+      "supported": false,
+      "param": null,
+      "unit": "minor",
+      "frequencyParam": null
+    },
+    "presets": [
+      500,
+      1000,
+      1500,
+      2000
+    ],
+    "presetsConfirmed": false,
+    "defaultPreset": 1000,
+    "allowCustom": true,
+    "minAmount": 200,
+    "maxAmount": 1000000,
+    "limitsConfirmed": false,
+    "methods": [],
+    "recurring": {
+      "enabled": false,
+      "firstCharge": null,
+      "cancellation": null
+    },
+    "feeContribution": {
+      "enabled": false
+    }
+  },
+  "bankTransfer": {
+    "_readme": "Copied from the Jamia's poster (9 Nov 2026). NOT verified. Shown only in the preview, marked pending, until the finance owner confirms each account with the bank and sets verified: true. holderType must be 'organisation' or, for an individual's account, publicExplanation must say whose account it is and why.",
+    "verified": false,
+    "source": "the Jamia's appeal posters (madrasa poster and construction poster), supplied on 9 November 2026",
+    "accounts": [
+      {
+        "bank": "Bank AL Habib Limited",
+        "accountTitle": "SYED ABDUL HAQ SAIFI",
+        "accountNumber": null,
+        "iban": "PK64BAHL1121008100166701",
+        "holderType": "individual",
+        "publicExplanation": null,
+        "branch": "Karimabad Branch, Karachi",
+        "swift": "BAHLPKKA",
+        "swiftNote": "Head-office code"
+      },
+      {
+        "bank": "United Bank Limited (UBL)",
+        "accountTitle": "MAKTABAH ABDULLAH BIN ABDUL MUTTALIB R.A",
+        "accountNumber": null,
+        "iban": "PK65UNIL0109000339721555",
+        "holderType": null,
+        "publicExplanation": null,
+        "titleNote": "Title printed above both UBL accounts on the construction poster",
+        "branch": null,
+        "swift": "UNILPKKA",
+        "swiftNote": "Head-office code"
+      },
+      {
+        "bank": "United Bank Limited (UBL)",
+        "accountTitle": "MAKTABAH ABDULLAH BIN ABDUL MUTTALIB R.A",
+        "accountNumber": "0109000287619799",
+        "iban": "PK30UNIL0109000287619799",
+        "holderType": null,
+        "publicExplanation": null,
+        "titleNote": "Title printed above both UBL accounts on the construction poster",
+        "branch": null,
+        "swift": "UNILPKKA",
+        "swiftNote": "Head-office code"
+      }
+    ],
+    "mobileWallets": [
+      {
+        "provider": "Easypaisa",
+        "number": "03002903600",
+        "accountTitle": null,
+        "holderType": null,
+        "publicExplanation": null,
+        "scope": "For donors in Pakistan"
+      }
+    ],
+    "reference": null,
+    "notes": null,
+    "swiftSource": "Head-office SWIFT/BIC codes were checked on Wise and Xe on 9 November 2026. Branch-specific codes may exist; the Jamia should confirm them with each bank."
+  }
+}

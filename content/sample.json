@@ -1,0 +1,247 @@
+{
+  "_readme": "PREVIEW ONLY. Invented sample values to review the layout with content in place. Merged over site.json/finance.json in the 'sample' preview view; the build refuses to use it for a launch build. Currency code SMP is deliberately not a real currency.",
+  "site": {
+    "masjidName": "Sample Masjid",
+    "projectLocation": "Sample Town",
+    "projectCountry": "Sample Country",
+    "headline": "Help complete a masjid for our community",
+    "lede": "The walls are up. Your support now goes toward the roof, so the building can be enclosed before winter. (Sample text.)",
+    "masjidNameUr": null,
+    "taglineUr": null,
+    "tagline": "Sample tagline",
+    "shortName": null,
+    "logo": null,
+    "favicon": null,
+    "appleTouchIcon": null,
+    "address": null,
+    "numberLocale": null,
+    "displayCurrency": null,
+    "siteName": null,
+    "salutationAr": null
+  },
+  "organisation": {
+    "name": "Sample Masjid Trust",
+    "country": "Sample Country",
+    "registration": "Registration no. 000000 (sample)",
+    "relationshipToMasjid": "The Trust owns the land and is the legal body building and running the masjid. (Sample.)",
+    "onwardTransfer": null,
+    "head": {
+      "name": "Sample Name",
+      "role": "Sample role"
+    },
+    "nameUr": null,
+    "patron": null
+  },
+  "contact": {
+    "email": "info@example.org",
+    "person": null,
+    "phone": null,
+    "facebook": null
+  },
+  "campaign": {
+    "scopeLabel": "Roof phase appeal",
+    "reportingCurrency": "SMP",
+    "currentPhaseTarget": 12000000,
+    "confirmedRaised": 4710000,
+    "financialAsOf": "2026-11-02",
+    "figureSource": "Manually reconciled from the payment provider dashboard and the Trust's bank statement.",
+    "totalProjectBudget": 48000000,
+    "totalProjectBudgetAsOf": "2026-09-01",
+    "allocationNote": "Donations go into one general construction fund and are applied to the current priority first. (Sample wording.)",
+    "targetNote": null,
+    "costBreakdown": [],
+    "costBreakdownSource": null
+  },
+  "status": {
+    "currentStage": "Walls complete; roof structure next",
+    "lastProjectUpdate": "2026-10-28"
+  },
+  "heroPhoto": {
+    "placeholder": true,
+    "type": "actual",
+    "alt": "Sample: the masjid building from the street, walls complete, roof not yet installed",
+    "caption": "The building from the street, walls complete (sample caption)",
+    "date": "2026-10-28"
+  },
+  "buildingToday": {
+    "summary": "The foundations, ground-floor slab and external walls are complete. The roof, windows, electrics and ablution area still need to be built. (Sample.)",
+    "photos": [
+      {
+        "placeholder": true,
+        "type": "actual",
+        "alt": "Sample: completed external walls seen from the car park",
+        "caption": "External walls complete",
+        "date": "2026-10-28"
+      },
+      {
+        "placeholder": true,
+        "type": "actual",
+        "alt": "Sample: interior prayer hall without a roof, open to the sky",
+        "caption": "Prayer hall, awaiting roof",
+        "date": "2026-10-28"
+      },
+      {
+        "placeholder": true,
+        "type": "actual",
+        "alt": "Sample: steel reinforcement for the ground-floor slab",
+        "caption": "Ground-floor slab reinforcement",
+        "date": "2026-06-14"
+      },
+      {
+        "placeholder": true,
+        "type": "design",
+        "alt": "Sample: architect's drawing of the finished masjid with a dome and minaret",
+        "caption": "Proposed design (architect's visualisation)",
+        "date": "2025-11-01"
+      }
+    ]
+  },
+  "needs": [
+    {
+      "title": "Roof structure and covering",
+      "why": "Closes the building against rain so interior work can begin.",
+      "estimate": 12000000,
+      "estimateNote": "Contractor quote, September 2026",
+      "status": "Fundraising now"
+    },
+    {
+      "title": "Electrical installation",
+      "why": "Lighting, sockets and fans for the prayer hall.",
+      "estimate": null,
+      "estimateNote": "Quote requested",
+      "status": "Planned"
+    },
+    {
+      "title": "Ablution facilities",
+      "why": "Water supply, drainage and wudu area.",
+      "estimate": null,
+      "estimateNote": null,
+      "status": "Planned"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Land secured and permits granted",
+      "status": "completed",
+      "date": "2024-03",
+      "dateType": "actual"
+    },
+    {
+      "title": "Foundations",
+      "status": "completed",
+      "date": "2025-08",
+      "dateType": "actual"
+    },
+    {
+      "title": "Walls and ground-floor slab",
+      "status": "completed",
+      "date": "2026-10",
+      "dateType": "actual"
+    },
+    {
+      "title": "Roof",
+      "status": "in_progress",
+      "date": "2027-02",
+      "dateType": "estimate",
+      "description": "Fundraising for the roof phase."
+    },
+    {
+      "title": "Electrics, windows and ablution area",
+      "status": "planned",
+      "date": null,
+      "dateType": "estimate"
+    },
+    {
+      "title": "Interior finishing and opening",
+      "status": "planned",
+      "date": null,
+      "dateType": "estimate"
+    }
+  ],
+  "updates": [
+    {
+      "title": "Walls complete",
+      "date": "2026-10-28",
+      "body": "The final course of blockwork was laid this week. (Sample.)",
+      "next": "Contractor to confirm roof start date once funds allow.",
+      "photo": {
+        "placeholder": true,
+        "alt": "Sample: builders on scaffolding finishing the top of a wall"
+      }
+    },
+    {
+      "title": "Window openings framed",
+      "date": "2026-09-12",
+      "body": "Lintels installed over all window openings. (Sample.)",
+      "next": "Finish the remaining walls.",
+      "photo": {
+        "placeholder": true,
+        "alt": "Sample: concrete lintel above a window opening"
+      }
+    },
+    {
+      "title": "Slab poured",
+      "date": "2026-06-20",
+      "body": "The ground-floor slab was poured and left to cure. (Sample.)",
+      "next": "Start blockwork.",
+      "photo": {
+        "placeholder": true,
+        "alt": "Sample: freshly poured concrete floor slab"
+      }
+    }
+  ],
+  "story": {
+    "paragraphs": [
+      "Sample paragraph: who the masjid will serve, such as families in the area who currently travel a long way to pray in congregation.",
+      "Sample paragraph: why a purpose-built space is needed, and what it will be used for: daily prayers, Jumu'ah, classes for children.",
+      "Sample paragraph: who is responsible. The project is run by volunteers on behalf of the Trust, with a qualified contractor and site engineer."
+    ],
+    "missionUr": null,
+    "translationNote": null,
+    "departments": [],
+    "departmentsNote": null,
+    "facts": []
+  },
+  "reports": [
+    {
+      "title": "Budget summary (sample)",
+      "period": "2026",
+      "published": "2026-09-01",
+      "url": null
+    }
+  ],
+  "policies": {
+    "refund": "If you made a mistake, contact us within 30 days and we will work with the payment provider to refund it where possible. (Sample policy.)",
+    "surplusAndDelays": "If the roof phase is over-funded or delayed, donations go to the next construction priority listed on this page. (Sample policy.)",
+    "fees": "The payment provider deducts a processing fee from each donation. (Sample: state the real fee basis once confirmed.)",
+    "zakatGuidanceVerified": null
+  },
+  "_finance": {
+    "payments": {
+      "currency": "SMP",
+      "providerDisplayName": "[Payment provider]",
+      "presetsConfirmed": true,
+      "limitsConfirmed": true,
+      "recurring": {
+        "enabled": true,
+        "firstCharge": "today",
+        "cancellation": "Cancel any time from the link in your confirmation email, or contact us."
+      }
+    },
+    "bankTransfer": {
+      "accounts": [],
+      "mobileWallets": []
+    }
+  },
+  "appealClosing": {
+    "en": "Sample closing line from the organisation.",
+    "ar": null,
+    "arMeaning": null
+  },
+  "design": null,
+  "funds": [],
+  "studentGifts": [],
+  "waysHighlights": null,
+  "siteImagery": null,
+  "planning": null
+}
